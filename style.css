@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+:root {
+  --action: #fe6d3f;
+  --primary: #6226e1;
+  --secondary: #a866fc;
+  --tertiary: #e645e8;
+  --text: #333333;
+  --canvas: #f9f9fb;
+  --white: #fff;
+  --accent: ##08b1fa;
+  --linear-green: linear-gradient(180deg, #dfedd3 0%, #d5f9b6 100%);
+  --linear-builder: linear-gradient(90deg, #e645e8 0%, #6200de 100%);
+  --xs: 0.5rem;
+  --sm: 0.75rem;
+  --md: 1rem;
+  --lg: 1.25rem;
+  --xl: 1.5rem;
+  --2xl: 1.75rem;
+  --3xl: 2rem;
+  --4xl: 2.25rem;
+  --5xl: 2.5rem;
+  --6xl: 2.75rem;
+  --7xl: 3rem;
+  --8xl: 3.25rem;
+  --9xl: 3.5rem;
+  --10xl: 3.75rem;
+  --11xl: 4rem;
+}
+
+body {
+  background-color: var(--canvas);
+}
+
+/* display  */
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+/* margin */
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+/* background  */
+.background-white {
+  background: var(--white);
+}
+
+.background-subtle {
+  background: var(--canvas);
+}
+
+/* accent  */
+.object {
+  color: var(--primary);
+}
+
+/* skeleton element  */
+.container-card {
+  padding: var(--md);
+  border-radius: var(--md);
+}
+.shadow-card {
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.04);
+  background-color: var(--white);
+}
+
+.responsive-element {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+/* desktop  */
+@media (min-width: 768px) {
+  .heading-1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Inter;
+  }
+
+  .heading-2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Inter;
+  }
+
+  .heading-3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: Inter;
+  }
+
+  .p_regular_xs {
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: Inter;
+  }
+
+  .p_regular_sm {
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: Inter;
+  }
+
+  .p_regular_md {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Inter;
+  }
+
+  /* semibold  */
+  .p_semibold_xs {
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: Inter;
+  }
+
+  .p_semibold_sm {
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-family: Inter;
+  }
+
+  .p_semibold_md {
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Inter;
+  }
+
+  /* bold  */
+  .p_bold_xs {
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: Inter;
+  }
+
+  .p_bold_sm {
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-family: Inter;
+  }
+
+  .p_bold_md {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Inter;
+  }
+}
+
+/* mobile  */
+@media (max-width: 768px) {
+  .heading-1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Inter;
+  }
+
+  .heading-2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: Inter;
+  }
+
+  .heading-3 {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Inter;
+  }
+
+  .p_regular_xs {
+    font-size: 0.625rem;
+    font-weight: 400;
+    font-family: Inter;
+  }
+
+  .p_regular_sm {
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: Inter;
+  }
+
+  .p_regular_md {
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: Inter;
+  }
+
+  /* semibold  */
+  .p_semibold_xs {
+    font-size: 0.625rem;
+    font-weight: 600;
+    font-family: Inter;
+  }
+
+  .p_semibold_sm {
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-family: Inter;
+  }
+
+  .p_semibold_md {
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-family: Inter;
+  }
+
+  /* bold  */
+  .p_bold_xs {
+    font-size: 0.625rem;
+    font-weight: 700;
+    font-family: Inter;
+  }
+
+  .p_bold_sm {
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: Inter;
+  }
+
+  .p_bold_md {
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-family: Inter;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.sidebar {
+  justify-content: space-between;
+  padding: var(--3xl) var(--xl);
+  height: 100vh;
+}
+.content {
+  padding: var(--3xl) var(--xl);
+}
+.top-info {
+  justify-content: space-between;
+  align-items: center;
+}
+.top-info img {
+  width: var(--7xl);
+  height: var(--7xl);
+}
