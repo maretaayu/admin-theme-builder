@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Dashboard.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="sidebar background-canvas">
+    <div class="container d-grid">
+      <!-- sidebar  -->
+      <div
+        class="sidebar theme-background-canvas justify-content-space-between h-full py-3xl px-xl"
+      >
         <div class="logo"></div>
         <div class="menu">
           <div class="item-menu">
@@ -46,16 +50,112 @@
           </div>
         </div>
       </div>
-      <div class="content background-white">
-        <div class="top-info d-flex">
+
+      <!-- content  -->
+      <div class="content theme-background-white py-3xl px-xl gap-xl d-grid">
+        <div
+          class="top-info d-flex justify-content-space-between align-items-center"
+        >
           <div class="about">
             <h3>Hi, Mareta</h3>
             <p>Admin</p>
           </div>
-          <img src="asset/artist.png" alt="User" />
+          <img src="asset/artist.png" alt="User" class="size-3" />
         </div>
-        <div class="banner"></div>
-        <div class="overview"></div>
+        <div
+          class="banner px-lg py-lg d-flex align-items-center gap-lg radius-sm"
+        >
+          <img src="asset/banner.png" alt="" />
+          <div class="banner-info d-grid gap-sm">
+            <p class="p_bold_md">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry
+            </p>
+            <p class="p_regular_sm">
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s
+            </p>
+            <button class="button button-secondary">
+              Create New Component
+            </button>
+          </div>
+        </div>
+        <div class="overview">
+          <h3 class="heading-3">overview</h3>
+          <div class="group-overview responsive-element">
+            <div
+              class="item-overview align-items-center gap-md d-flex"
+              id="role"
+            >
+              <div class="text">
+                <p class="heading-3">Role</p>
+                <p class="heading-2">2</p>
+              </div>
+              <img src="asset/role.svg" alt="Role" />
+            </div>
+            <div
+              class="item-overview align-items-center gap-md d-flex"
+              id="role"
+            >
+              <div class="text">
+                <p class="heading-3">Role</p>
+                <p class="heading-2">2</p>
+              </div>
+              <img src="asset/role.svg" alt="Role" />
+            </div>
+            <div
+              class="item-overview align-items-center gap-md d-flex"
+              id="role"
+            >
+              <div class="text">
+                <p class="heading-3">Role</p>
+                <p class="heading-2">2</p>
+              </div>
+              <img src="asset/role.svg" alt="Role" />
+            </div>
+            <div
+              class="item-overview align-items-center gap-md d-flex"
+              id="role"
+            >
+              <div class="text">
+                <p class="heading-3">Role</p>
+                <p class="heading-2">2</p>
+              </div>
+              <img src="asset/role.svg" alt="Role" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- log -->
+      <div class="log py-3xl px-xl d-grid gap-lg">
+        <h3 class="heading-3 theme-text">Log Activity</h3>
+        <div class="d-grid gap-md">
+          <p class="p_semibold_sm theme-text">Today</p>
+          <div class="group-info d-grid gap-sm">
+            <div class="card">
+              <img src="asset/artist.png" alt="User" class="size-2" />
+              <div>
+                <p><b>Jasmine</b>&nbsp;added navbar component</p>
+                <p class="opacity-6">09.21</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="asset/artist.png" alt="User" class="size-2" />
+              <div>
+                <p><b>Jasmine</b>&nbsp;added navbar component</p>
+                <p class="opacity-6">09.21</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="asset/artist.png" alt="User" class="size-2" />
+              <div>
+                <p><b>Jasmine</b>&nbsp;added navbar component</p>
+                <p class="opacity-6">09.21</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
