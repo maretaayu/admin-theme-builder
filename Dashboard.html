@@ -9,43 +9,47 @@
     <link rel="stylesheet" href="Dashboard.css" />
   </head>
   <body>
-    <div class="container d-grid">
+    <div class="feature container d-grid">
       <!-- sidebar  -->
       <div
-        class="sidebar theme-background-canvas justify-content-space-between h-full py-3xl px-xl"
+        class="sidebar theme-background-canvas justify-content-space-between h-full py-3xl px-xl d-flex flex-direction-column justify-content-space-between"
       >
-        <div class="logo"></div>
-        <div class="menu">
-          <div class="item-menu">
-            <a href="#" class="d-flex">
-              <img src="asset/Icon.svg" alt="Icon Menu" />
-              <p>Dashboard</p>
-            </a>
+        <div class="d-grid gap-7xl">
+          <div class="logo">
+            <img src="asset/logo.svg" alt="" />
           </div>
-          <div class="item-menu">
-            <a href="#" class="d-flex">
-              <img src="asset/Icon.svg" alt="Icon Menu" />
-              <p>Dashboard</p>
-            </a>
-          </div>
-          <div class="item-menu">
-            <a href="#" class="d-flex">
-              <img src="asset/Icon.svg" alt="Icon Menu" />
-              <p>Dashboard</p>
-            </a>
-          </div>
-          <div class="item-menu">
-            <a href="#" class="d-flex">
-              <img src="asset/Icon.svg" alt="Icon Menu" />
-              <p>Dashboard</p>
-            </a>
+          <div class="menu d-grid gap-xl">
+            <div class="item-menu active">
+              <a href="#" class="d-flex align-items-center gap-sm">
+                <img src="asset/Icon.svg" alt="Icon Menu" />
+                <p>Dashboard</p>
+              </a>
+            </div>
+            <div class="item-menu opacity-6">
+              <a href="#" class="d-flex align-items-center gap-sm">
+                <img src="asset/IconRole.svg" alt="Icon Menu" />
+                <p>Role</p>
+              </a>
+            </div>
+            <div class="item-menu opacity-6">
+              <a href="#" class="d-flex align-items-center gap-sm">
+                <img src="asset/IconComponent.svg" alt="Icon Menu" />
+                <p>Component</p>
+              </a>
+            </div>
+            <div class="item-menu opacity-6">
+              <a href="#" class="d-flex align-items-center gap-sm">
+                <img src="asset/IconMetaData.svg" alt="Icon Menu" />
+                <p>Meta Data</p>
+              </a>
+            </div>
           </div>
         </div>
         <div class="logout">
           <div class="item-menu">
-            <a href="#" class="d-flex">
-              <img src="asset/Icon.svg" alt="Icon Menu" />
-              <p>Logout</p>
+            <a href="#" class="d-flex align-items-center gap-sm">
+              <img src="asset/IconLogout.svg" alt="Icon Menu" />
+              <p class="error">Logout</p>
             </a>
           </div>
         </div>
@@ -80,45 +84,45 @@
             </button>
           </div>
         </div>
-        <div class="overview">
+        <div class="overview d-grid gap-lg">
           <h3 class="heading-3">overview</h3>
           <div class="group-overview responsive-element">
             <div
-              class="item-overview align-items-center gap-md d-flex"
+              class="item-overview align-items-center gap-md d-flex justify-content-space-between"
               id="role"
             >
-              <div class="text">
-                <p class="heading-3">Role</p>
+              <div class="text d-grid gap-sm">
+                <p class="heading-3 disabled">Role</p>
                 <p class="heading-2">2</p>
               </div>
               <img src="asset/role.svg" alt="Role" />
             </div>
             <div
-              class="item-overview align-items-center gap-md d-flex"
-              id="role"
+              class="item-overview align-items-center gap-md d-flex justify-content-space-between"
+              id="user"
             >
-              <div class="text">
-                <p class="heading-3">Role</p>
-                <p class="heading-2">2</p>
+              <div class="text d-grid gap-sm">
+                <p class="heading-3 disabled">Users</p>
+                <p class="heading-2">2000</p>
               </div>
               <img src="asset/role.svg" alt="Role" />
             </div>
             <div
-              class="item-overview align-items-center gap-md d-flex"
-              id="role"
+              class="item-overview align-items-center gap-md d-flex justify-content-space-between"
+              id="component"
             >
-              <div class="text">
-                <p class="heading-3">Role</p>
-                <p class="heading-2">2</p>
+              <div class="text d-grid gap-sm">
+                <p class="heading-3 disabled">Components</p>
+                <p class="heading-2">2000</p>
               </div>
               <img src="asset/role.svg" alt="Role" />
             </div>
             <div
-              class="item-overview align-items-center gap-md d-flex"
-              id="role"
+              class="item-overview align-items-center gap-md d-flex justify-content-space-between"
+              id="metadata"
             >
-              <div class="text">
-                <p class="heading-3">Role</p>
+              <div class="text d-grid gap-sm">
+                <p class="heading-3 disabled">Meta Data</p>
                 <p class="heading-2">2</p>
               </div>
               <img src="asset/role.svg" alt="Role" />
@@ -158,5 +162,18 @@
         </div>
       </div>
     </div>
+
+    <div class="sorry">
+      <p>
+        Oops! Theme Builder is not available on mobile devices. Please access it
+        on a desktop for the best experience.
+      </p>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/desvg@1.0.2/desvg.min.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        deSVG(".active", true);
+      });
+    </script>
   </body>
 </html>
