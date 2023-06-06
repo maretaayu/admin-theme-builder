@@ -638,7 +638,7 @@ a {
 }
 
 .button-primary {
-  background-color: var(--action);
+  background-color: var(--primary);
   color: var(--white);
 }
 
@@ -646,6 +646,11 @@ a {
   background-color: var(--white);
   border: 1px solid var(--border);
   color: var(--text);
+}
+
+.button-tertiary {
+  background-color: var(--action);
+  color: var(--white);
 }
 
 .modal {
