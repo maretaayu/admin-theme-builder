@@ -647,3 +647,10 @@ a {
   border: 1px solid var(--border);
   color: var(--text);
 }
+
+.modal {
+  border-radius: var(--sm);
+  padding: var(--3xl);
+  gap: var(--xl);
+  display: grid;
+}
