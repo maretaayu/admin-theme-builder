@@ -488,7 +488,8 @@ p {
     font-family: Inter;
   }
 
-  .p_semibold_sm {
+  .p_semibold_sm,
+  label {
     font-size: 0.875rem;
     font-weight: 600;
     font-family: Inter;
@@ -658,4 +659,16 @@ a {
   padding: var(--3xl);
   gap: var(--xl);
   display: grid;
+}
+
+.field {
+  display: grid;
+  gap: var(--xs);
+}
+
+.field input {
+  height: var(--3xl);
+  border: 1px solid var(--border);
+  border-radius: var(--2xs);
+  padding: var(--2xs) var(--sm);
 }
