@@ -648,6 +648,7 @@ a {
   align-items: center;
   width: fit-content;
   font-weight: bold;
+  border: none;
 }
 
 .button-primary {
