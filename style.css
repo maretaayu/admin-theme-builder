@@ -51,6 +51,10 @@ p {
   color: var(--text);
 }
 
+.theme-text-white {
+  color: var(--white);
+}
+
 /* background  */
 .theme-background-white {
   background: var(--white);
@@ -58,6 +62,10 @@ p {
 
 .theme-background-subtle {
   background: var(--canvas);
+}
+
+.theme-background-primary {
+  background: var(--primary);
 }
 
 /* opacity */
