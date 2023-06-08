@@ -60,6 +60,10 @@ p {
   background: var(--white);
 }
 
+.theme-background-error {
+  background: var(--error);
+}
+
 .theme-background-subtle {
   background: var(--canvas);
 }
@@ -150,6 +154,10 @@ p {
 /* justify */
 .justify-content-center {
   justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
 }
 
 .justify-content-space-between {
@@ -665,6 +673,7 @@ a {
 .button-tertiary {
   background-color: var(--action);
   color: var(--white);
+  border: none;
 }
 
 .modal {
@@ -679,9 +688,10 @@ a {
   gap: var(--xs);
 }
 
-.field input {
-  height: var(--3xl);
+.field input,
+.field select,
+.field textarea {
   border: 1px solid var(--border);
   border-radius: var(--2xs);
-  padding: var(--2xs) var(--sm);
+  padding: var(--sm);
 }
