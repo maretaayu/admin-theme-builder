@@ -658,7 +658,7 @@ a {
 
 .t-button {
   padding: var(--t-sm) var(--t-3xl);
-  border-radius: var(--t-xl);
+  border-radius: var(--t-xs);
   align-items: center;
   width: fit-content;
   font-weight: bold;
