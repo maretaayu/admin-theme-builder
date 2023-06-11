@@ -468,79 +468,79 @@ p {
 
 /* desktop  */
 @media (min-width: 768px) {
-  .t_sorry {
+  .t-sorry {
     display: none;
   }
-  .t_heading-1 {
+  .t-heading-1 {
     font-size: 2rem;
     font-weight: bold;
     font-family: Inter;
   }
 
-  .t_heading-2 {
+  .t-heading-2 {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: Inter;
   }
 
-  .t_heading-3 {
+  .t-heading-3 {
     font-size: 1.25rem;
     font-weight: bold;
     font-family: Inter;
   }
 
-  .t_p_regular_xs {
+  .t-p_regular_xs {
     font-size: 0.75rem;
     font-weight: 400;
     font-family: Inter;
   }
 
-  .t_p_regular_sm {
+  .t-p_regular_sm {
     font-size: 0.875rem;
     font-weight: 400;
     font-family: Inter;
   }
 
-  .t_p_regular_md {
+  .t-p_regular_md {
     font-size: 1rem;
     font-weight: 400;
     font-family: Inter;
   }
 
   /* semibold  */
-  .t_p_semibold_xs {
+  .t-p_semibold_xs {
     font-size: 0.75rem;
     font-weight: 600;
     font-family: Inter;
   }
 
-  .t_p_semibold_sm,
+  .t-p_semibold_sm,
   label {
     font-size: 0.875rem;
     font-weight: 600;
     font-family: Inter;
   }
 
-  .t_p_semibold_md {
+  .t-p_semibold_md {
     font-size: 1rem;
     font-weight: 600;
     font-family: Inter;
   }
 
   /* bold  */
-  .t_p_bold_xs {
+  .t-p_bold_xs {
     font-size: 0.75rem;
     font-weight: 700;
     font-family: Inter;
   }
 
-  .t_p_bold_sm {
+  .t-p_bold_sm {
     font-size: 0.875rem;
     font-weight: 700;
     font-family: Inter;
   }
 
-  .t_p_bold_md {
+  .t-p_bold_md {
     font-size: 1rem;
     font-weight: 700;
     font-family: Inter;
@@ -549,78 +549,78 @@ p {
 
 /* mobile  */
 @media (max-width: 768px) {
-  .t_feature {
+  .t-feature {
     display: none;
   }
-  .t_heading-1 {
+  .t-heading-1 {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: Inter;
   }
 
-  .t_heading-2 {
+  .t-heading-2 {
     font-size: 1.25rem;
     font-weight: bold;
     font-family: Inter;
   }
 
-  .t_heading-3 {
+  .t-heading-3 {
     font-size: 1rem;
     font-weight: bold;
     font-family: Inter;
   }
 
-  .t_p_regular_xs {
+  .t-p_regular_xs {
     font-size: 0.625rem;
     font-weight: 400;
     font-family: Inter;
   }
 
-  .t_p_regular_sm {
+  .t-p_regular_sm {
     font-size: 0.75rem;
     font-weight: 400;
     font-family: Inter;
   }
 
-  .t_p_regular_md {
+  .t-p_regular_md {
     font-size: 0.875rem;
     font-weight: 400;
     font-family: Inter;
   }
 
   /* semibold  */
-  .t_p_semibold_xs {
+  .t-p_semibold_xs {
     font-size: 0.625rem;
     font-weight: 600;
     font-family: Inter;
   }
 
-  .t_p_semibold_sm {
+  .t-p_semibold_sm {
     font-size: 0.75rem;
     font-weight: 600;
     font-family: Inter;
   }
 
-  .t_p_semibold_md {
+  .t-p_semibold_md {
     font-size: 0.875rem;
     font-weight: 600;
     font-family: Inter;
   }
 
   /* bold  */
-  .t_p_bold_xs {
+  .t-p_bold_xs {
     font-size: 0.625rem;
     font-weight: 700;
     font-family: Inter;
   }
 
-  .t_p_bold_sm {
+  .t-p_bold_sm {
     font-size: 0.75rem;
     font-weight: 700;
     font-family: Inter;
   }
 
-  .t_p_bold_md {
+  .t-p_bold_md {
     font-size: 0.875rem;
     font-weight: 700;
     font-family: Inter;
