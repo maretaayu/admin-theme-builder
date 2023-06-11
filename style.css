@@ -690,7 +690,8 @@ a {
 
 .field input,
 .field select,
-.field textarea {
+.field textarea,
+form.search {
   border: 1px solid var(--border);
   border-radius: var(--2xs);
   padding: var(--sm);
