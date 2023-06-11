@@ -700,3 +700,12 @@ a {
   border-radius: var(--2xs);
   padding: var(--sm);
 }
+
+.cta-modal {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  gap: 1rem;
+  background: var(--white);
+  padding: 1rem;
+}
