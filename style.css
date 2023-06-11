@@ -154,6 +154,15 @@ p {
   flex-direction: row-reverse;
 }
 
+/* position */
+.t-relative {
+  position: relative;
+}
+
+.t-absolute {
+  position: absolute;
+}
+
 /* justify */
 .t-justify-content-center {
   justify-content: center;
