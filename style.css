@@ -237,6 +237,11 @@ p {
   height: var(--11xl);
 }
 
+.size-500 {
+  width: 500px;
+  height: 500px;
+}
+
 .size-full {
   width: var(--full);
   height: var(--full);
@@ -690,8 +695,7 @@ a {
 
 .field input,
 .field select,
-.field textarea,
-form.search {
+.field textarea {
   border: 1px solid var(--border);
   border-radius: var(--2xs);
   padding: var(--sm);
