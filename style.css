@@ -29,6 +29,8 @@
   --t-9xl: 3.5rem;
   --t-10xl: 3.75rem;
   --t-11xl: 4rem;
+  --t-12xl: 5rem;
+
   --t-full: 100%;
 }
 
@@ -238,6 +240,11 @@ p {
   height: var(--t-11xl);
 }
 
+.t-size-5 {
+  width: var(--t-12xl);
+  height: var(--t-12xl);
+}
+
 .t-size-500 {
   width: 500px;
   height: 500px;
@@ -274,6 +281,14 @@ p {
 
 .t-radius-full {
   border-radius: var(--t-full);
+}
+
+.t-scroll-y {
+  overflow-y: scroll;
+}
+
+.t-scroll-x {
+  overflow-x: scroll;
 }
 
 /* margin */
